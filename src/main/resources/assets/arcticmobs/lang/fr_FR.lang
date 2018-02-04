@@ -1,26 +1,103 @@
 # Group Info
-arcticmobs.name=Créatures arctiques
-arcticmobs.description=Créatures de glace et de vent, que l'on trouve généralement dans les zones neigeuses et froides telles que les Taigas et les Plaines Gelées.
+arcticmobs.name=Créatures du froid
+arcticmobs.description=Créatures de glace et de neige, que l'on trouve dans des zones froides comme des taigas our des plaines glacées
+#
 # Entites
-entity.arcticmobs.reiver.name=Saccagivre
-entity.arcticmobs.reiver.description=Esprits glacés qui lancent des éclairs gelés sur tout ce qu'ils considèrent comme une menace.
 entity.arcticmobs.frostweaver.name=Tisse-gel
-entity.arcticmobs.frostweaver.description=Araignées de glace ignobles. Attention à leur crachat, il crée temporairement une toile de givre collante.
+entity.arcticmobs.frostweaver.description=Des araignées qui lancent des toiles de gel, paralysant leur proie.
+achievement.frostweaver.kill=Brisons la glace
+achievement.frostweaver.kill.desc=Tuez un tisse-gel
+achievement.frostweaver.learn=Pattes de glace
+achievement.frostweaver.learn.desc=Ajoutez un tisse-gel dans votre bestiaire
+achievement.frostweaver.summon=Invocateur de toile
+achievement.frostweaver.summon.desc=Invoquez un tisse-gel
 entity.arcticmobs.yeti.name=Yéti
-entity.arcticmobs.yeti.description=Énormes mammifères glacials qui se repaissent de la végétation arctique. Ils peuvent être exploités à l'aide de légumes, mais attention à leurs nuages de gel. Le lait de yéti est un délice !
+entity.arcticmobs.yeti.description=De grands mammifères qui aiment les plantes des endroits froids. Vous pouvez les apprivoiser avec des légumes, mais attention à leur nuages de froid. Le lait de yéti est un délice!
+achievement.yeti.kill=De sang froid
+achievement.yeti.kill.desc=Tuez un yéti
+achievement.yeti.learn=Doux à l'intérieur
+achievement.yeti.learn.desc=Ajoutez un yéti dans votre bestiaire
+entity.arcticmobs.wendigo.name=Wendigo
+entity.arcticmobs.wendigo.description=Des gigantesques créatures de froid, capables de lancer des Charges Tundra, laissant du gel liquide là où elles atterissent. Ce genre de créature crée du Feuglace dans leurs traces.
+achievement.wendigo.kill=Artisan arctique
+achievement.wendigo.kill.desc=Tuez un wendigo
+achievement.wendigo.learn=Géant de glace
+achievement.wendigo.learn.desc=Ajoutez un wendigo dans votre bestiaire
+entity.arcticmobs.arix.name=Arix
+entity.arcticmobs.arix.description=Des malins démons de glace, lançant des charges de feuneige sur leurs ennemis. Peut être dompté, faisant d'eux des puissants alliés.
+achievement.arix.kill=Marre du froid
+achievement.arix.kill.desc=Tuez un arix
+achievement.arix.learn=Glaçon volant
+achievement.arix.learn.desc=Ajoutez un arix dans votre bestiaire
+achievement.arix.tame=L'hiver à vos côtés
+achievement.arix.tame.desc=Domptez un arix
+entity.arcticmobs.serpix.name=Serpix
+entity.arcticmobs.serpix.description=Un genre de ver géant capable de creuser sous la terre gelée, lançant du feuglace sur ses ennemis.
+achievement.serpix.kill=Déneigement
+achievement.serpix.kill.desc=Tuez un serpix
+achievement.serpix.learn=Le ver de glace
+achievement.serpix.learn.desc=Ajoutez un serpix dans votre bestiaire
+achievement.serpix.tame=Dans la neige
+achievement.serpix.tame.desc=Domptez un serpix
+entity.arcticmobs.maug.name=Maug
+entity.arcticmobs.maug.description=Une bête ressemblant à un ours polaire, capable de lancer des coups qui vont vous faire ramper!
+achievement.maug.kill=Chasseur d'ours
+achievement.maug.kill.desc=Tuez un maug
+achievement.maug.learn=Les ours des neiges
+achievement.maug.learn.desc=Ajoutez un maug dans votre bestiaire
+achievement.maug.tame=Maître des terres glacées
+achievement.maug.tame.desc=Domptez un maug
 #
 # Items
-item.arcticspawn.name=Œuf de 
+item.arcticspawn.name=Oeuf de
 item.yetimeatraw.name=Viande de yéti crue
+item.yetimeatraw.description=Ca a l'air vraiment froid...
 item.yetimeatcooked.name=Viande de yéti cuite
+item.yetimeatcooked.description=On dirait du porc.
 item.palesoup.name=Soupe pâle
-item.frostyfur.name=Fourrure glaciale
-item.frostboltcharge.name=Charge d'éclair gelé
-item.frostwebcharge.name=Charge de toile de givre
-item.frostboltscepter.name=Sceptre d'éclairs gelés
-item.frostwebscepter.name=Sceptre de toiles de givre
+item.palesoup.description=Une soupe laiteuse qui augmente la résistance.
+item.frostyfur.name=Fourrure glacée
+item.frostyfur.description=Aussi froide que la neige, peut être utilisée pur créer un nuage froid.
+item.frostwebcharge.name=Charge Toilegel
+item.frostwebcharge.description=Lancez ça pur créer une toilegel. Peut être utilisée depuis un distributeur.
+item.tundracharge.name=Charge Tundra
+item.tundracharge.description=Lancez ça pour créer du gel liquide. Peut être utilisée depuis un distributeur.
+item.icefirecharge.name=Charge Feuneige
+item.icefirecharge.description=Lancez ça pour créer du feuneige. Peut être utilisée depuis un distributeur.
+item.blizzardcharge.name=Charge Blizzard
+item.blizzardcharge.description=lancez ça pur créer une petite vague de feuneige. Peut être utilisée depuis un distributeur.
+item.frostboltscepter.name=Frostbolt Scepter
+item.frostboltscepter.description=Mid Damage, Rapid Fire, Applies Move Slowdown
+item.frostwebscepter.name=Frostweb Scepter
+item.frostwebscepter.description=Low Damage, Rapid Fire, Applies Move Slowdown, Places Frostwebs
+item.tundrascepter.name=Tundra Scepter
+item.tundrascepter.description=High Damage, Charge Up, Places Ooze
+item.icefirescepter.name=Icefire Scepter
+item.icefirescepter.description=Low Damage, Rapid Fire, Places Icefire
+item.blizzardscepter.name=Blizzard Scepter
+item.blizzardscepter.description=Mid Damage, Spray Fire, Places Icefire
+item.arixtreat.name=Arix Treat
+item.arixtreat.description=An icy treat for icy imps!
+item.serpixtreat.name=Serpix Treat
+item.serpixtreat.description=Serpix love to devour frosty flesh and bone!
+item.maugtreat.name=Maug Treat
+item.maugtreat.description=Maugs naturally hunt Yetis!
+item.bucketooze.name=Ooze Bucket
+item.bucketooze.description=Ooze is an icy gel substance, causes slowness, hunger and applies low damage over time.
 #
 # Blocks
-tile.frostweb.name=Toile de givre
-tile.frostcloud.name=Nuage de gel
-tile.frostfire.name=Glacefeu
+tile.frostweb.name=Frostweb
+tile.frostweb.description=A web made of icy cold silk, temporary.
+tile.frostcloud.name=Frostcloud
+tile.frostcloud.description=A small snow cloud that applies movement slowdown and hunger.
+tile.frostfire.name=Frostfire
+tile.frostfire.description=A magical flame that superfreezes, will cause damage and apply movement slowdown. Can spawn Reivers.
+tile.icefire.name=Icefire
+tile.icefire.description=A magical flame that freezes, will cause damage and apply movement slowdown.
+tile.ooze.name=Ooze
+tile.ooze.description=An icy gel substance, causes slowness, hunger and applies low damage over time.
+#
+#
+#
+# ========== Damage Types ==========
+death.attack.ooze=%1$s was frozen in the icy ooze!
