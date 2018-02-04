@@ -7,7 +7,7 @@ entity.arcticmobs.reiver.description=Esprits glacés qui lancent des éclairs ge
 entity.arcticmobs.frostweaver.name=Tisse-gel
 entity.arcticmobs.frostweaver.description=Araignées de glace ignobles. Attention à leur crachat, il crée temporairement une toile de givre collante.
 entity.arcticmobs.yeti.name=Yéti
-entity.arcticmobs.yeti.description=Énormes mammifères glacials qui se repaissent de la végétation arctique. Ils peuvent être exploités à l'aide de légumes, mais attention à leurs nuages de gel. Le lait de yéti est un délice !
+entity.arcticmobs.yeti.description=Énormes mammifères arctiques qui se repaissent de la végétation arctique. Ils peuvent être exploités à l'aide de légumes, mais attention à leurs nuages de gel. Le lait de yéti est un délice !
 #
 # Items
 item.arcticspawn.name=Œuf de 
